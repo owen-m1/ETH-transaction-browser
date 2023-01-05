@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.transactions-container {
+  height: 600px;
+}
+
+table, th, td {
+  border: 1px solid;
+  column-width: 800px;
+  padding: 5px;
+  margin:5px;
+}
+
+.controls {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
